@@ -10240,3 +10240,6 @@ body.sidebar-toggled footer.sticky-footer {
 .mt-12 {
     margin-top: 12rem !important;
 }
+.logo-res {
+    max-width: 100% !important;
+}
