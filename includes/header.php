@@ -2,11 +2,19 @@
 include('constant.php');
 
 $pageArray = array(
-   HOME,
-   SESSION,
+    HOME,
+    SESSION,
+    SESSIONCALENDER,
+    FILES,
+    APPLICATIONS,
+    REGISTRATIONS,
+    MESSAGE,
+    STUDENTUPLOADS,
+    STUDYBREAKS,
+    DISCUSSIONS,
+    DISCUSSIONS,
+    PROFILE,
 );
-// echo "<pre>";
-// print_r($pageArray);exit();
 
 function active($selected_page){
     $class = '';
@@ -55,7 +63,7 @@ function active($selected_page){
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
  
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="">
                     <img src="img/logo.png" class="logo-res">
                 </div>
@@ -73,62 +81,62 @@ function active($selected_page){
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item <?= active($pageArray[1]); ?>">
-                <a class="nav-link" href="session.php">
+                <a class="nav-link" href="sessions.php">
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Sessions</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[2]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="session-calender.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Session Calender</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[3]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="files.php">
                     <i class="fas fa-fw fa-file"></i>
                     <span>Files</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[4]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="applications.php">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Inernal Applications</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[5]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="registrations.php">
                     <i class="fas fa-fw fa-check"></i>
                     <span>Registrations</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[6]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="messages.php">
                     <i class="fas fa-fw fa-comments"></i>
                     <span>Messages</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[7]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="student-uploads.php">
                     <i class="fas fa-fw fa-upload"></i>
                     <span>Students Uploads</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[8]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="study-breaks.php">
                     <i class="fas fa-fw fa-coffee"></i>
                     <span>Study Breaks</span></a>
             </li>
 
             <li class="nav-item <?= active($pageArray[9]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="discussions.php">
                     <i class="fas fa-fw fa-info"></i>
                     <span>Discussions</span>
                 </a>
             </li>
 
             <li class="nav-item <?= active($pageArray[10]); ?>">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="profile.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Profile</span>
                 </a>
