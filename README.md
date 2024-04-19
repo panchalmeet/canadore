@@ -5,9 +5,9 @@
 - internal-applications => done
 - registrations 		=> 
 - messages 				=> done
-- student-uploads		=> 
-- study-breaks			=> 
-- discussions			=> 
-- profile				=> 
+- student-uploads		=> done
+- study-breaks			=> done
+- discussions			=> done
+- profile				=> done
 - session-datetime		=> done
 - login					=> done

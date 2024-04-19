@@ -12,7 +12,6 @@ $pageArray = array(
     STUDENTUPLOADS,
     STUDYBREAKS,
     DISCUSSIONS,
-    DISCUSSIONS,
     PROFILE,
 );
 
@@ -129,7 +128,7 @@ function active($selected_page){
             </li>
 
             <li class="nav-item <?= active($pageArray[9]); ?>">
-                <a class="nav-link" href="discussions.php">
+                <a class="nav-link" href="https://www.canadore-stanford.com/posts">
                     <i class="fas fa-fw fa-info"></i>
                     <span>Discussions</span>
                 </a>
@@ -182,7 +181,7 @@ function active($selected_page){
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="profile.php">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
