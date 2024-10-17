@@ -1,18 +1,15 @@
-- index					=>  
-- sessions				=> done
-- session-calender		=> 
-- files 				=> done
-- internal-applications => done
-- registrations 		=> 
-- messages 				=> done
-- student-uploads		=> done
-- study-breaks			=> done
-- discussions			=> done
-- profile				=> done
-- session-datetime		=> done
-- login					=> done
-
-
+<h1>Canadore College Student Portal</h1>
+<p>The Canadore College Student Portal is an online platform designed for current students to manage their academic and campus-related activities. The portal allows students to:</p>
+<ul>
+    <li>Access course materials and assignments</li>
+    <li>View grades and academic progress</li>
+    <li>Register for classes and manage course schedules</li>
+    <li>Pay tuition fees and track financial aid</li>
+    <li>Access college announcements and updates</li>
+    <li>Communicate with faculty and staff</li>
+    <li>Request transcripts and other student services</li>
+    <li>Students can log in using their student ID and password to stay connected with all aspects of their educational journey.</li>
+</ul>
 
 
 <img width="1280" alt="image" src="https://github.com/panchalmeet/canadore/assets/37632435/feae50db-76f3-442c-b976-909f329c11aa">
